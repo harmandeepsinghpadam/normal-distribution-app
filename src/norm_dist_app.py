@@ -83,19 +83,19 @@ st.title("Normal distribution")
 st.write("Normal distributions are important in statistics and are often used in the natural and social sciences to represent real-valued random variables whose distributions are not known. Their importance is partly due to the central limit theorem. It states that, under some conditions, the average of many samples (observations) of a random variable with finite mean and variance is itself a random variable—whose distribution converges to a normal distribution as the number of samples increases. Therefore, physical quantities that are expected to be the sum of many independent processes, such as measurement errors, often have distributions that are nearly normal.")
 latext = r'''
 $$
-Notation={\mathcal {N}}(\mu ,\sigma ^{2})
+\text {Notation}={\mathcal {N}}(\mu ,\sigma ^{2})
 $$
 $$
-Mean=\mu
+\text {Mean}=\mu
 $$
 $$
-Standard Deviation=\sigma
+\text {Standard Deviation}=\sigma
 $$
 $$
 \text {Probability density function}, PDF= {\displaystyle {\frac {1}{\sigma {\sqrt {2\pi }}}}e^{-{\frac {1}{2}}\left({\frac {x-\mu }{\sigma }}\right)^{2}}}
 $$
 $$
-\text {Cumulative distribution function}, CDF={\displaystyle \Phi (x)={\frac {1}{\sqrt {2\pi }}}\int _{-\infty }^{x}e^{-t^{2}/2}\,dt}
+\text {Cumulative distribution function}, CDF={\displaystyle {\frac {1}{\sqrt {2\pi }}}\int _{-\infty }^{x}e^{-t^{2}/2}\,dt}
 $$
 
 '''
